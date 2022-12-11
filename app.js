@@ -11,7 +11,7 @@ import ReviewsController from "./Controllers/Reviews/reviews-controller.js";
 import TestController from "./Controllers/Test/test-controller.js"
 
 const app = express();
-const port = 4300;
+const port = process.env.PORT || 4300;
 app.set("port", port);
 
 app.use(cors());
