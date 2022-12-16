@@ -4,6 +4,7 @@ const schema = mongoose.Schema({
   name: { type: String, required: true },
   imageUrl: { type: String, required: true },
   price: { type: String, required: true },
+  ingredients: {type: String, required: true},
   manufacturer: { type: String },
   asin: { type: String },
   country: { type: String },
